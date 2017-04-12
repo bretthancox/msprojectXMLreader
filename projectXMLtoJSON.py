@@ -5,7 +5,6 @@ import datetime as dt
 
 taskInfo = []
 taskDict = {}
-uidList = []
 planXML = "Project_plan_04112017.xml"
 jsonFromXml = "xmlToJson.txt"
 assessmentFile = ("Project_parsed_{}.json".format(dt.date.today().strftime("%m_%d_%Y")))
